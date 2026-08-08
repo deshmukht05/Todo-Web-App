@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 900; */
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+p,
+li,
+a,
+lable {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--para-color);
+  line-height: 1.5;
+  /* font-weight: 400; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Theme */
+:root {
+  --main-color: #0062ff;
+  --supporting-color: #ebf3fe;
+  --font—color: #424242;
+  --bg-color: #ffffff;
+  --heading-color: #000a19;
+  --h-color: #0a043c;
+  --white-color: #ffffff;
+  --test: #070101;
+  --para-color: #504e4d;
+  --bnt-hover-bg-color: #003b99;
+  --btn-box-shadow: rgba(l00, 100, 111, 0.2) 0px 7px 29px 0px;
+}
